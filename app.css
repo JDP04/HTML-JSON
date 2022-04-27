@@ -1,0 +1,142 @@
+.navbar {
+    background-color: white;
+    margin-top: 2px;
+    padding: 0px 0px;
+    border-top: 4px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    display: flex;
+
+
+
+}
+
+.navbar .brand a {
+    text-decoration: none;
+    color: red;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Gupter', serif;
+    margin: 0px 23px;
+
+
+}
+
+.navbar .menu {
+    margin-top: 16px;
+    margin-left: 4px;
+}
+
+
+.menu-line {
+    background-color: whitesmoke;
+    height: 3px;
+    width: 20px;
+    margin-bottom: 4px;
+}
+
+.navbar ul {
+
+    margin-left: 900px;
+}
+
+.navbar li {
+    list-style-type: none;
+
+}
+
+.navbar .search {
+    background-color: white;
+    color: whitesmoke;
+
+}
+
+.search ::placeholder {
+    font-style: italic;
+    font-size: 15px;
+}
+
+#search {
+    border: none !important;
+}
+
+.search svg {
+    max-height: 28px;
+
+
+
+}
+
+#clicksearch {
+    background-color: white;
+    border: none;
+}
+
+.main-content .top-head {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 31px;
+    margin-left: 69px;
+    ;
+}
+
+.feeds {
+    margin-left: 70px;
+    display: flex;
+    display: inline-block;
+
+}
+
+.feeds ul {
+    list-style: none;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.stories h2 {
+    color: red;
+    font-weight: 650;
+
+}
+
+.stories p {
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.latest-posts {
+
+    background-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    display: block;
+
+}
+
+.table-head {
+    color: blue;
+    margin-left: 25px;
+    font-style: italic;
+}
+
+.latest-posts ul {
+
+    font-size: larger;
+    font-style: italic;
+
+
+
+
+}
+
+.latest-items {
+
+    border-bottom: 1px solid black;
+    margin-top: 35px;
+    background-color: whitesmoke;
+
+}
